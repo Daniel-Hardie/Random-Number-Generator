@@ -1,4 +1,4 @@
-# Random Number Generator
+# Random Number Guesser
 This is my first project in JavaScript after teaching myself how to use it. The aim of this project is to get used to the basics of JavaScript so that in the future I can have the foundation to undertake more challenging programs. 
 
 The main specifications I would like to set for this program are:
