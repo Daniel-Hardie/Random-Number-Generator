@@ -1,8 +1,25 @@
 body{
   font-family: "Arial", serif;
   background-color: #ffdb4d;
+  text-align: center;
+margin-top: 200px;
 }
 
 h1{
   font-size: 48px;
+}
+
+.box{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid rgb(0,0,0);
+}
+
+.button{
+  font-size: 15px;
+  width: 200px;
+  height: 45px;
+  text-align: center;
 }
