@@ -9,6 +9,14 @@ h1{
   font-size: 48px;
 }
 
+h2{
+  font-size: 30px;
+}
+
+h3{
+
+}
+
 .box{
   padding: 20px;
   font-size: 30px;
@@ -22,4 +30,9 @@ h1{
   width: 200px;
   height: 45px;
   text-align: center;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
 }

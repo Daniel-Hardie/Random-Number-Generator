@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Number Guessing Game</title>
         <link href="format.css" type="text/css" rel="stylesheet">
-
     </head>
+
     <body>
         <h1>Number Guessing Game</h1>
 
+        <h2>The number is between 1 and 100</h2>
 
+        <div id="group1">
           <input type="text" name="guess" value="Enter number here" class="box">
           <br><br>
-          <input type="submit" value="Guess" class="button">
 
-        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-        <script src = 'js/script.js'></script>
+          <input type="submit" value="Guess" class="button">
+          <h3 id="counter">Guesses remaining: 10</h3>
+          <h3 id="feedback">Enter a number to guess!</h3>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        
+        <script src = 'js/script.js' src='script.js'></script>
+
+
+        
+
     </body>
 </html>
