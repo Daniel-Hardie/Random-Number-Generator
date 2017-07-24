@@ -4,6 +4,7 @@ var guessRemain = 10;
 var win = false;
 var $inputBox = $('#box');
 var $counter = $('#counter');
+var $feedback = $('#feedback');
 
 //immediately generate random number
 generateNumber();
@@ -34,7 +35,10 @@ function decreaseGuess(){
   }
   //user is at zero guesses so loses
   else{
+    $counter.html("Guesses remaining: 0" );
+    $feedback.html("You've lost the game! The number was: " + number);
     win = false;
+    console.log("lost");
   }
 
 }
