@@ -20,7 +20,11 @@ function main(){
 
       //check to make sure guess is a number
       if(isNaN(userGuess)){
-
+        $feedback.html("Please enter a valid number between 1 and 100");
+        alert("Please enter a valid number between 1 and 100");
+      }
+      else{
+        userGuess = Math.floor(guess);
       }
     }
   });
